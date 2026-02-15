@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<center>
+<h1>American International University-Bangladesh</h1>
+</center>
+<h2>University Admission Form</h2>
+
+<form>
+<fieldset>
+<b>Personal Information</b>
+
+<table>
+<tr>
+<td>1st Name:</td>
+ <td><input type="text" required maxlength="20"></td>
+</tr>
+
+ <tr>
+ <td>Last Name:</td>
+ <td><input type="text" required maxlength="20"></td>
+ </tr>
+
+<tr>
+<td>Email:</td>
+<td><input type="email" required></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender" required> Male
+<input type="radio" name="gender"> Female
+</td>
+</tr>
+<tr>
+<td>Age:</td>
+            <td><input type="number" required></td>
+        </tr>
+
+        <tr>
+            <td>DOB:</td>
+            <td><input type="date" required></td>
+        </tr>
+    </table>
+</fieldset>
+
+<fieldset>
+    <b>Academic Information</b>
+  
+
+    <table>
+        <tr>
+            <td>Department:</td>
+            <td>
+                <select required>
+       <option value="">Select</option>
+                    <option>CSE</option>
+                    <option>EEE</option>
+                    <option>BBA</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Interests:</td>
+            <td>
+<input type="checkbox"> Programming
+<input type="checkbox"> Networking
+            </td>
+        </tr>
+
+        <tr>
+            <td>Upload Document:</td>
+            <td><input type="file" required></td>
+        </tr>
+    </table>
+</fieldset>
+
+
+
+<center>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</center>
+
+</form>
+
+</body>
+</html>
